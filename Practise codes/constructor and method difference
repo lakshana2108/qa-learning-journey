@@ -1,0 +1,19 @@
+How do constructors differ from a regular method?
+
+Constructors and regular methods are both members of a Java class, but they are different mainly in their purpose, name, return type, and invocation.
+
+First, talking about the purpose, a constructor is used to initialize an object when it is created. Initialization means giving the newly created object its initial values or setting up its initial state.
+
+A regular method, on the other hand, is used to perform a specific action or operation on an object.
+
+The second difference is the name. A constructor must have the same name as the class, whereas a regular method can have any valid name.
+
+The third difference is the return type. A constructor does not have a return type, not even void. A regular method must have a return type, and it can be a data type such as int or String, or it can be void if it doesn't return anything.
+
+The fourth difference is invocation. A constructor is invoked when we create an object using the new keyword. For example, if I write Car car = new Car("Toyota"), the constructor is invoked during object creation and initializes the object.
+
+A regular method is explicitly called using the object reference. For example, car.drive() explicitly invokes the drive method. A regular method can also be called multiple times whenever we need its functionality.
+
+For example, if I have a Car class, Car(String model) can be the constructor that initializes the car's model, while drive() can be a regular method that performs the driving action.
+
+So, in simple terms, a constructor initializes an object when it is created, whereas a regular method performs an action or operation on an object."
